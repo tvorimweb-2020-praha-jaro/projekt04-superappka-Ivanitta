@@ -31,3 +31,139 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.super {
+    font-size: 80px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.super p {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.slogan{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.slogan p{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.paticka {
+    background-color:#48418e; 
+    color: white;
+    text-align: center;
+    padding:16px;
+    margin:0;
+}
+.paticka p{
+    margin: 0;
+}
+
+.detaily{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+
+.detaily p{
+    text-align: center;
+    margin:0;
+}
+
+.letadlo,
+.bubliny,
+.mapa{
+    width:60px;    
+    text-align:center;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: #48418e;
+    text-align: center;
+}
+
+.sloupec{
+    width: 260px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nabidka{
+    margin:0;
+    padding:0;
+}
+
+.nabidka li{
+    display: inline-block;
+}
+
+.nabidka a{
+    display: inline-block;
+    color:  #25133d;
+    text-decoration: none; 
+    padding: 15px 30px;   
+}
+
+.nabidka a:hover,
+.nabidka a:focus{
+    background-color:  #48418e;
+    color:white;
+}
+
+.appka{
+    background-image: url(images/pozadi.jpg);
+    position: relative;
+    height: 500px;
+    color: white;
+}
+.telefon{
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+.aplikace{
+    display: flex;
+    flex-direction: column;
+}
+
+.tlacitka{
+    position:absolute;
+    bottom: 20px;
+    padding-left:20px;
+    margin-bottom: 40px;
+    padding:0;
+}
+.tlacitka li{
+    display: inline-block;
+    border: 1px solid white;
+    margin:20px;
+    border-radius: 8%;
+    box-shadow: -1px 1px 6px rgb(63, 60, 60);
+}
+   
+.tlacitka a{
+    color: white;
+    text-decoration: none;   
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.tlacitka a:hover,
+.tlacitka a:focus{
+    background-color:  #48418e;
+    color:white;
+}
